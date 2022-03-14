@@ -1,0 +1,513 @@
+[
+    {
+        "model": "ichange40.Setting",
+        "pk": 1,
+        "fields": {
+            "vk_url": "https://vk.com",
+            "inst_url": "https://instagram.com",
+            "tg_url": "https://t.me",
+            "support_url": "https://t.me",
+            "email_support": "support@mail.ru",
+            "email_partner": "partner@mail.ru"
+        }
+    },
+    {
+        "model": "ichange40.Rule",
+        "pk": 1,
+        "fields": {
+            "name": "Это строка",
+            "attribute": "type",
+            "value": "string",
+            "message": "Значение поля должно быть строкой"
+        }
+    },
+    {
+        "model": "ichange40.Rule",
+        "pk": 2,
+        "fields": {
+            "name": "Обязательное поле",
+            "attribute": "required",
+            "value": "True",
+            "message": "Обязательное поле для заполнения!"
+        }
+    },
+    {
+        "model": "ichange40.Rule",
+        "pk": 3,
+        "fields": {
+            "name": "Паттерн фио",
+            "attribute": "pattern",
+            "value": "/^[A-Za-zЀ-ѿ\\-]{2,50}\\s[A-Za-zЀ-ѿ\\-\\s]{2,50}$/u",
+            "message": "Некорректный формат данных"
+        }
+    },
+    {
+        "model": "ichange40.Rule",
+        "pk": 4,
+        "fields": {
+            "name": "Паттерн номера карты",
+            "attribute": "pattern",
+            "value": "/^\\d{16,18}$/",
+            "message": "Номер карты от 16 до 18 цифр\""
+        }
+    },
+    {
+        "model": "ichange40.Input",
+        "pk": 1,
+        "fields": {
+            "name": "fio",
+            "label": "ФИО получателя",
+            "placeholder": "ФИО получателя",
+            "rules": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "ichange40.Input",
+        "pk": 2,
+        "fields": {
+            "name": "number",
+            "label": "Адрес",
+            "placeholder": "Адрес",
+            "rules": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "ichange40.Input",
+        "pk": 3,
+        "fields": {
+            "name": "number",
+            "label": "Номер карты",
+            "placeholder": "Номер карты",
+            "rules": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "model": "ichange40.Notice",
+        "pk": 1,
+        "fields": {
+            "text": "При оплате может взиматься дополнительная комиссия Вашим банком"
+        }
+    },
+    {
+        "model": "ichange40.Notice",
+        "pk": 2,
+        "fields": {
+            "text": "Для отправки средств используйте только сеть ERC-20, использование другой сети повлечет за собой потерю средств."
+        }
+    },
+    {
+        "model": "ichange40.PaymentType",
+        "pk": 0,
+        "fields": {
+            "name": "Банк"
+        }
+    },
+    {
+        "model": "ichange40.PaymentType",
+        "pk": 1,
+        "fields": {
+            "name": "Крипта"
+        }
+    },
+    {
+        "model": "ichange40.PaymentType",
+        "pk": 2,
+        "fields": {
+            "name": "Эпс"
+        }
+    },
+    {
+        "model": "ichange40.PaymentType",
+        "pk": 3,
+        "fields": {
+            "name": "Чеки"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 1,
+        "fields": {
+            "name": "eur"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 2,
+        "fields": {
+            "name": "rub"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 3,
+        "fields": {
+            "name": "uah"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 4,
+        "fields": {
+            "name": "usd"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 5,
+        "fields": {
+            "name": "btc"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 6,
+        "fields": {
+            "name": "eth"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 7,
+        "fields": {
+            "name": "usdt"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 8,
+        "fields": {
+            "name": "bnb"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 9,
+        "fields": {
+            "name": "usdc"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 10,
+        "fields": {
+            "name": "xrp"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 11,
+        "fields": {
+            "name": "ada"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 12,
+        "fields": {
+            "name": "sol"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 13,
+        "fields": {
+            "name": "avax"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 14,
+        "fields": {
+            "name": "luna"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 15,
+        "fields": {
+            "name": "dot"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 16,
+        "fields": {
+            "name": "doge"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 17,
+        "fields": {
+            "name": "busd"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 18,
+        "fields": {
+            "name": "shib"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 19,
+        "fields": {
+            "name": "ust"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 20,
+        "fields": {
+            "name": "matic"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 21,
+        "fields": {
+            "name": "cro"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 22,
+        "fields": {
+            "name": "wbtc"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 23,
+        "fields": {
+            "name": "dai"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 24,
+        "fields": {
+            "name": "ltc"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 25,
+        "fields": {
+            "name": "atom"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 26,
+        "fields": {
+            "name": "link"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 27,
+        "fields": {
+            "name": "near"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 28,
+        "fields": {
+            "name": "trx"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 29,
+        "fields": {
+            "name": "ftt"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 30,
+        "fields": {
+            "name": "algo"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 31,
+        "fields": {
+            "name": "bch"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 32,
+        "fields": {
+            "name": "steth"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 33,
+        "fields": {
+            "name": "okb"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 34,
+        "fields": {
+            "name": "leo"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 35,
+        "fields": {
+            "name": "xlm"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 36,
+        "fields": {
+            "name": "ftm"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 37,
+        "fields": {
+            "name": "uni"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 38,
+        "fields": {
+            "name": "mana"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 39,
+        "fields": {
+            "name": "hbar"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 40,
+        "fields": {
+            "name": "icp"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 41,
+        "fields": {
+            "name": "sand"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 42,
+        "fields": {
+            "name": "axs"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 43,
+        "fields": {
+            "name": "etc"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 44,
+        "fields": {
+            "name": "egld"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 45,
+        "fields": {
+            "name": "vet"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 46,
+        "fields": {
+            "name": "theta"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 47,
+        "fields": {
+            "name": "omi"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 48,
+        "fields": {
+            "name": "fil"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 49,
+        "fields": {
+            "name": "xtz"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 50,
+        "fields": {
+            "name": "klay"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 51,
+        "fields": {
+            "name": "xmr"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 52,
+        "fields": {
+            "name": "ceth"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 53,
+        "fields": {
+            "name": "cdai"
+        }
+    },
+    {
+        "model": "ichange40.Currency",
+        "pk": 54,
+        "fields": {
+            "name": "mim"
+        }
+    }
+]

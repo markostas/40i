@@ -1,0 +1,29 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+
+{% block bodyclass %} 
+{% endblock %}
+
+{% block extrastyle %}
+    <link rel="stylesheet" type="text/css" href="https://rawcdn.githack.com/daveusa31/css-utils/d6d6b39248c81ea360f0f9f94656f223278d130f/util.min.css">
+{% endblock %}
+
+{% if not is_popup %}
+    {% block breadcrumbs %}
+        <div class="breadcrumbs">
+            <a href="{% url 'admin:index' %}">{% translate 'Home' %}</a>
+        </div>
+    {% endblock %}
+{% endif %}
+
+
+{% block content %}
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}
+
+{% block footer %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+{% endblock %}

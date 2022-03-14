@@ -1,0 +1,922 @@
+{
+    "attention": {
+        "en": "Warning!",
+        "ru": "Внимание!"
+    },
+    "partExport": {
+        "en": "Exporting exchange rates",
+        "ru": "Экспорт курсов"
+    },
+    "cookieUse": {
+        "en": "We use cookie and other similar technologies. Staying on our site after reading this message means you don't object to the use of these technologies.",
+        "ru": "Мы используем cookie и другие аналогичные технологии. Если, прочитав это сообщение, Вы остаетесь на нашем сайте, это означает, что Вы не возражаете против использования этих технологий."
+    },
+    "calcMin": {
+        "en": "Minimum",
+        "ru": "Минимум"
+    },
+    "calcMax": {
+        "en": "Maximum",
+        "ru": "Максимум"
+    },
+    "copyDone": {
+        "en": "Copied",
+        "ru": "Скопировано"
+    },
+    "done": {
+        "en": "Done!",
+        "ru": "Готово!"
+    },
+    "lastNewsHeader": {
+        "en": "Latest news",
+        "ru": "Последние новости"
+    },
+    "partHeader": {
+        "en": "For our partners",
+        "ru": "Нашим партнерам"
+    },
+    "accOrderUserData": {
+        "en": "User data",
+        "ru": "Данные пользователя"
+    },
+    "accOrderSellerData": {
+        "en": "Seller's data",
+        "ru": "Данные продавца"
+    },
+    "accOrderRateData": {
+        "en": "Exchange rate",
+        "ru": "Курс обмена"
+    },
+    "refLinkLabel": {
+        "en": "Referral link",
+        "ru": "Реферальная ссылка"
+    },
+    "orderDataFieldsEmpty01": {
+        "en": "No data available",
+        "ru": "Данные отсутствуют"
+    },
+    "singMonitorLinkLbl": {
+        "en": "I'm an exchanger monitoring service",
+        "ru": "Я - мониторинг"
+    },
+    "signMonitorLinkPlh": {
+        "en": "Link to monitoring service",
+        "ru": "Ссылка на мониторинг"
+    },
+    "accOrderHeader": {
+        "en": "Order",
+        "ru": "Заявка"
+    },
+    "accGoToOrderPage": {
+        "en": "Go to the order",
+        "ru": "Перейти к заявке"
+    },
+    "accGoTransactionInfo": {
+        "en": "Verify the transaction",
+        "ru": "Проверить транзакцию"
+    },
+    "accGiveFeedback": {
+        "en": "Leave feedback on Bestchange",
+        "ru": "Оставить отзыв на Bestchange"
+    },
+    "openedOrderFieldsEmpty01": {
+        "en": "No data available",
+        "ru": "Данные отсутствуют"
+    },
+    "regGoLogin": {
+        "en": "Sign in",
+        "ru": "Войти"
+    },
+    "scamWarnHeader": {
+        "en": "Check the address when copying!",
+        "ru": "Проверьте адрес при копировании!"
+    },
+    "scamWarnText01": {
+        "en": "There is increasing information about the spread of a virus capable of intercepting wallet addresses of various cryptocurrencies from the Windows clipboard and substituting them with the addresses under the control of attackers.",
+        "ru": "Все чаще появляется информация о распространении вируса, способного перехватывать из буфера обмена Windows адреса кошельков различных криптовалют и подменять их адресами, находящимися под контролем злоумышленников."
+    },
+    "scamWarnText02": {
+        "en": "To avoid losing your digital assets, we urge you to check the first and last five characters of the inserted wallet against the address you copied it from. Remember, only your attentiveness will help protect you from scammers.",
+        "ru": "Во избежание потери своих цифровых активов, мы настоятельно просим Вас сверять первые и последние пять символов вставляемого кошелька с адресом, откуда Вы скопировали его. Помните, только Ваша внимательность поможет защититься от мошенников."
+    },
+    "resBank": {
+        "en": "Banks",
+        "ru": "Банки"
+    },
+    "resCrypto": {
+        "en": "Cryptocurrencies",
+        "ru": "Криптовалюты"
+    },
+    "resCheck": {
+        "en": "Checks",
+        "ru": "Чеки"
+    },
+    "accHeader": {
+        "en": "Welcome to your personal account",
+        "ru": "Добро пожаловать в Ваш личный кабинет"
+    },
+    "accMenuOrders": {
+        "en": "My orders",
+        "ru": "Мои заявки"
+    },
+    "accMenuRef": {
+        "en": "Referral program",
+        "ru": "Реферальная програма"
+    },
+    "accMenuReqs": {
+        "en": "My bank details",
+        "ru": "Мои реквизиты"
+    },
+    "accMenuSelect": {
+        "en": "Select a section",
+        "ru": "Выберите раздел"
+    },
+    "accMenuSettings": {
+        "en": "Settings",
+        "ru": "Настройки"
+    },
+    "accNewPassSubmit": {
+        "en": "Save password",
+        "ru": "Сохранить пароль"
+    },
+    "accPassChangeHeader": {
+        "en": "Change password",
+        "ru": "Сменить пароль"
+    },
+    "accSettingsHeader": {
+        "en": "Your personal data",
+        "ru": "Ваши личные данные"
+    },
+    "accountCleanAcc": {
+        "en": "Do you really want to delete your account?",
+        "ru": "Вы действительно хотите удалить аккаунт?"
+    },
+    "accountCleanAccBtn": {
+        "en": "Delete the exchange history",
+        "ru": "Очистить историю обмена"
+    },
+    "accountCleanDone": {
+        "en": "Done",
+        "ru": "Готово"
+    },
+    "accountCleanHistory": {
+        "en": "Do you really want to delete your exchange history?",
+        "ru": "Вы действительно хотите удалить историю обмена?"
+    },
+    "accountCleanHistoryBtn": {
+        "en": "Delete the account",
+        "ru": "Удалить аккаунт"
+    },
+    "accountCleanReqs": {
+        "en": "Do you really want to delete your bank details?",
+        "ru": "Вы действительно хотите удалить реквизиты?"
+    },
+    "accountCleanReqsBtn": {
+        "en": "Delete the bank details",
+        "ru": "Удалить реквизиты"
+    },
+    "advText01": {
+        "en": "Favorable exchange, 24/7",
+        "ru": "Выгодный обмен, круглосуточно 24/7"
+    },
+    "advText02": {
+        "en": "Our customers appreciate us for our high-quality service at any time, day or night.",
+        "ru": "Наши клиенты ценят нас, за качественный сервис в любое время дня и ночи."
+    },
+    "advText03": {
+        "en": "Your data is securely protected",
+        "ru": "Ваши данные надежно защищены"
+    },
+    "advText04": {
+        "en": "40i is committed to ensuring the safety of its customers' funds and data.",
+        "ru": "40i заботится о сохранности средств и данных своих клиентов."
+    },
+    "advText05": {
+        "en": "Quick exchange of your orders up to 5 minutes",
+        "ru": "Быстрый обмен Ваших заявок до 5 минут"
+    },
+    "advText06": {
+        "en": "We guarantee not only a favorable exchange rate, but also a lightning-fast transfer of funds.",
+        "ru": "Мы гарантируем не только выгодный курс обмена, но и молниеносную скорость перевода средств."
+    },
+    "askHinterAction": {
+        "en": "Ask",
+        "ru": "Спросить"
+    },
+    "askHinterHasQuest": {
+        "en": "Do you have any questions?",
+        "ru": "Есть вопросы?"
+    },
+    "askHinterText": {
+        "en": "If you have any difficulties with the exchange, please feel free to ask questions. We will reply you within the shortest possible time.",
+        "ru": "Если возникли сложности с обменом, задавайте вопросы. Мы ответим в ближайшее время."
+    },
+    "authAcceptRules": {
+        "en": "I give my consent to the processing of personal data and accept",
+        "ru": "Я согласен на обработку персональных данных и принимаю"
+    },
+    "authGoRecovery": {
+        "en": "Forgot?",
+        "ru": "Забыли?"
+    },
+    "authGoRegister": {
+        "en": "Sign up",
+        "ru": "Зарегистрируйтесь"
+    },
+    "authSubmit": {
+        "en": "Sign in",
+        "ru": "Войти в кабинет"
+    },
+    "calcChangeMax": {
+        "en": "Maximum amount",
+        "ru": "Максимальная сумма"
+    },
+    "calcChangeMin": {
+        "en": "Minimum amount",
+        "ru": "Минимальная сумма"
+    },
+    "cleanAccept": {
+        "en": "Confirm",
+        "ru": "Подтвердить"
+    },
+    "cleanCancel": {
+        "en": "Cancel",
+        "ru": "Отменить"
+    },
+    "contHead01": {
+        "en": "Contact details",
+        "ru": "Контактные данные"
+    },
+    "contHead02": {
+        "en": "Technical support",
+        "ru": "Техническая поддержка"
+    },
+    "contHead03": {
+        "en": "Email address",
+        "ru": "Электронный адрес"
+    },
+    "contHead04": {
+        "en": "We work daily",
+        "ru": "Работаем ежедневно"
+    },
+    "contHead05": {
+        "en": "Contact for partners",
+        "ru": "Связь для партнеров"
+    },
+    "contHead06": {
+        "en": "All exchanges proceed exclusively on the site and only through creation of an order. We never send payment details in chat, social networks, or by email.",
+        "ru": "Все обмены происходят строго на сайте и только посредством создания заявки. Мы никогда не выдаем реквизиты для оплаты в чате, социальных сетях или по электронной почте."
+    },
+    "contHead07": {
+        "en": "Contact us via social networks",
+        "ru": "Связаться с нами через соц. сети"
+    },
+    "contHead08": {
+        "en": "We appreciate every customer, so we made sure we have a convenient mechanism for communicating with the user. If you have any questions about your exchange order or TUCO's work, you can contact our round-the-clock support service both in the chat directly on our website and in Telegram, as well as in popular social networks.",
+        "ru": "Нам очень дорог каждый клиент, поэтому мы позаботились и об удобном механизме связи с пользователем. По любому вопросу касающейся Вашей заявки обмена или работы «TUCO», Вы можете написать к нам в круглосуточную поддержку как в чат непосредственно на нашем сайте, так и в telegram, а также в популярные социальные сети."
+    },
+    "cpnAdd": {
+        "en": "Add an input field",
+        "ru": "Добавить поле ввода"
+    },
+    "cpnLabel10": {
+        "en": "Enter the coupon",
+        "ru": "Введите купон"
+    },
+    "cpnLabel11": {
+        "en": "for the amount",
+        "ru": "на сумму"
+    },
+    "cpnLabel12": {
+        "en": "in the field",
+        "ru": "в поле"
+    },
+    "cpnRemove": {
+        "en": "Delete",
+        "ru": "Удалить"
+    },
+    "cpnSubmit": {
+        "en": "Submit",
+        "ru": "Отправить"
+    },
+    "doneGoNewBtn": {
+        "en": "New exchange",
+        "ru": "Новый обмен"
+    },
+    "errorReqEmail": {
+        "en": "Enter Email",
+        "ru": "Введите Email"
+    },
+    "errorReqField": {
+        "en": "Mandatory field",
+        "ru": "Обязательное поле"
+    },
+    "fieldGet": {
+        "en": "You get",
+        "ru": "Получаете"
+    },
+    "fieldGive": {
+        "en": "You give",
+        "ru": "Отдаете"
+    },
+    "fieldNameFIO": {
+        "en": "Full name",
+        "ru": "ФИО"
+    },
+    "fieldNameNumber": {
+        "en": "Number",
+        "ru": "Номер"
+    },
+    "helpHeader": {
+        "en": "Questions and answers",
+        "ru": "Вопросы-ответы"
+    },
+    "helpHintText": {
+        "en": "Did not find an answer?",
+        "ru": "Не нашли ответа?"
+    },
+    "helpSelectSection": {
+        "en": "Select a section",
+        "ru": "Выберите раздел"
+    },
+    "helpSubheader": {
+        "en": "If you haven't found the answer to your question, you can contact our technical support. Our professional and polite operators will be glad to help you and answer your questions regarding the work of our exchange service.",
+        "ru": "Если Вы не нашли ответ на свой вопрос, Вы можете обратиться в нашу техническую поддержку. Наши профессиональные и вежливые операторы с радостью придут к Вам на помощь и ответят на все интересующие вопросы, касающиеся работы обменного сервиса."
+    },
+    "linkBack": {
+        "en": "Back",
+        "ru": "Вернуться назад"
+    },
+    "linkContact": {
+        "en": "Contacts",
+        "ru": "Контакты"
+    },
+    "linkMainPage": {
+        "en": "Go to the home page",
+        "ru": "На главную страницу"
+    },
+    "linkReserves": {
+        "en": "Reserves",
+        "ru": "Резервы"
+    },
+    "newsHeader": {
+        "en": "News of our service",
+        "ru": "Новости нашего сервиса"
+    },
+    "newsSubHeader": {
+        "en": "Register in our system and do not miss our promotions, discounts, and service news you will definitely like.",
+        "ru": "Зарегистрируйтесь в нашей системе и не пропустите наши акции, скидки и новости сервиса, которые обязательно Вам приглянуться."
+    },
+    "notFoundHeader01": {
+        "en": "Unfortunately, the page does not exist or it has been deleted..",
+        "ru": "К сожалению, такой страницы нет, либо она была удалена.."
+    },
+    "notFoundHeader02": {
+        "en": "or even stolen, shhh...",
+        "ru": "или даже похищена, тссс..."
+    },
+    "notifyAccountActivated": {
+        "en": "The account has been successfully activated",
+        "ru": "Учетная запись успешно активирована"
+    },
+    "orcrGet": {
+        "en": "You get",
+        "ru": "Получаете"
+    },
+    "orcrGive": {
+        "en": "You give",
+        "ru": "Отдаете"
+    },
+    "orcrRateLabel": {
+        "en": "Exchange rate",
+        "ru": "Обмен по курсу"
+    },
+    "orcrRateOut": {
+        "en": "Exchange rates are outdated",
+        "ru": "Обменные курсы устарели"
+    },
+    "orcrRateOutHint": {
+        "en": "Unfortunately, the exchange rates are no longer relevant and should be updated",
+        "ru": "К сожалению, курсы обмена стали не актуальны, нужно обновление"
+    },
+    "orcrRateUpdateBtn": {
+        "en": "Update",
+        "ru": "Обновить"
+    },
+    "orcrReqsHeader": {
+        "en": "Complete the exchange",
+        "ru": "Оформить обмен"
+    },
+    "orcrSubmit": {
+        "en": "Exchange now",
+        "ru": "Обменять сейчас"
+    },
+    "ordHeaderTime": {
+        "en": "Time for payment",
+        "ru": "Время на оплату"
+    },
+    "ordListLoading": {
+        "en": "Getting data..",
+        "ru": "Получение данных.."
+    },
+    "ordListNoData": {
+        "en": "No data to be displayed",
+        "ru": "Нет данных для отображения"
+    },
+    "ordListOrderDate": {
+        "en": "Date and time",
+        "ru": "Дата и время"
+    },
+    "ordListOrderGet": {
+        "en": "You got",
+        "ru": "Получили"
+    },
+    "ordListOrderGive": {
+        "en": "You gave",
+        "ru": "Отдали"
+    },
+    "ordListOrderID": {
+        "en": "Order ID",
+        "ru": "ID заявки"
+    },
+    "ordListOrderN": {
+        "en": "Order",
+        "ru": "Заявка"
+    },
+    "ordListOrderState": {
+        "en": "Exchange status",
+        "ru": "Статус обмена"
+    },
+    "ordState1": {
+        "en": "Paying for the order",
+        "ru": "Оплачивается заявка"
+    },
+    "ordState10": {
+        "en": "Exchange error",
+        "ru": "Ошибка обмена"
+    },
+    "ordState11": {
+        "en": "Order",
+        "ru": "Заявка"
+    },
+    "ordState2": {
+        "en": "Exchange error",
+        "ru": "Ошибка обмена"
+    },
+    "ordState3": {
+        "en": "Order",
+        "ru": "Заявка"
+    },
+    "ordState4": {
+        "en": "Payment has not been received",
+        "ru": "Оплата не поступила"
+    },
+    "ordState5": {
+        "en": "Order has been cancelled",
+        "ru": "Заявка отменена"
+    },
+    "ordState6": {
+        "en": "Transfer of funds",
+        "ru": "Перевод средств"
+    },
+    "ordState7": {
+        "en": "Payment verification",
+        "ru": "Проверка оплаты"
+    },
+    "ordState8": {
+        "en": "Exchange error/Code: WNF",
+        "ru": "Ошибка обмена / Код: WNF"
+    },
+    "ordState9": {
+        "en": "Payment of the order",
+        "ru": "Оплата заявки"
+    },
+    "ordStateVerify": {
+        "en": "Verification",
+        "ru": "Верификация"
+    },
+    "ordStateZero": {
+        "en": "Please wait, the order is being created",
+        "ru": "Подождите, идет создание заявки"
+    },
+    "ordStepCheck": {
+        "en": "Payment verification",
+        "ru": "Проверка платежа"
+    },
+    "ordStepCreate": {
+        "en": "Creating the order",
+        "ru": "Создание заявки"
+    },
+    "ordStepEnd": {
+        "en": "Completion",
+        "ru": "Завершение"
+    },
+    "ordStepPay": {
+        "en": "Payment",
+        "ru": "Оплата"
+    },
+    "ordStepTransfer": {
+        "en": "Transfer",
+        "ru": "Перевод"
+    },
+    "ordStepVerify": {
+        "en": "Verification",
+        "ru": "Верификация"
+    },
+    "orderDoneLabel": {
+        "en": "The order has been successfully processed.",
+        "ru": "Заявка успешно обработана."
+    },
+    "orderErrorLabel": {
+        "en": "Exchange error!",
+        "ru": "Ошибка обмена!"
+    },
+    "partBottomText": {
+        "en": "Please note that the referral fee will be credited to you if the exchange service receives income from the completed exchange.",
+        "ru": "Обращаем Ваше внимание, что реферальное вознаграждение будет начислено Вам в том случае, если обменный сервис получит доход с совершенного обмена."
+    },
+    "partHeader2": {
+        "en": "How to get bonuses?",
+        "ru": "Как получать бонусы?"
+    },
+    "partHeader3": {
+        "en": "For monitoring",
+        "ru": "Для мониторингов"
+    },
+    "partReqDist1": {
+        "en": "from 1 to 20 referrals",
+        "ru": "с 1 до 20 реферала"
+    },
+    "partReqDist2": {
+        "en": "from 20 to 70 referrals",
+        "ru": "с 20 до 70 реферала"
+    },
+    "partReqDist3": {
+        "en": "70 or more referrals",
+        "ru": "с 70 и более"
+    },
+    "partStep1": {
+        "en": "Sign up and copy the referral link in your personal account.",
+        "ru": "Зарегистрируйтесь на сайте и скопируйте реферальную ссылку в личном кабинете."
+    },
+    "partStep2": {
+        "en": "Share this link with your friends on social networks or on the site.",
+        "ru": "Поделитесь этой ссылкой с друзьями, в соц.сетях или на сайте."
+    },
+    "partStep3": {
+        "en": "Withdraw the income received in any way that is convenient for you.",
+        "ru": "Выводите полученный доход удобным для Вас способом."
+    },
+    "partSubHeader": {
+        "en": "The site team offers you the opportunity to earn with us! We are looking to cooperate with everyone who does not want to waste their time. Our referral program partners receive income from all exchanges of users registered with a personal referral link.",
+        "ru": "Команда сайта предлагает Вам возможность зарабатывать вместе с нами! Мы приглашаем к сотрудничеству всех, кто не готов тратить свое время напрасно. Наши партнеры по реферальной программе получают доход от всех обменов пользователей, зарегистрированных по личной реферальной ссылке."
+    },
+    "partSubhead3": {
+        "en": "We invite exchange monitoring services to cooperate. We welcome new partners and are ready to share our profits.",
+        "ru": "Приглашаем к сотрудничеству мониторинги обменников. Мы очень рады новым партнерам и готовы делиться прибылью."
+    },
+    "partSubhead4": {
+        "en": "Register on our website and write to the chat to get the monitoring status.",
+        "ru": "Зарегистрируйтесь у нас на сайте и напишите в чат для получения статуса мониторинга."
+    },
+    "paymanHelp1": {
+        "en": "1. Transfer the specified amount of money using the bank details provided.",
+        "ru": "1. Осуществите перевод указанной суммы по выданным реквизитам."
+    },
+    "paymanHelp2": {
+        "en": "2. After the transfer of funds, click “The order is paid” for our managers to start processing it.",
+        "ru": "2. После перевода средств нажмите “Заявка оплачена”, чтобы операторы приступили к её обработке."
+    },
+    "paymanPaidBtn": {
+        "en": "The order is paid",
+        "ru": "Заявка оплачена"
+    },
+    "paymercHeader": {
+        "en": "Redirecting to the payment system page ...",
+        "ru": "Переадресация на страницу оплаты платёжной системы ..."
+    },
+    "paymercSubHeader": {
+        "en": "Please wait — it may take a few seconds. If nothing happened, please click the button",
+        "ru": "Пожалуйста, подождите — это может занять несколько секунд. Если это не произошло, то нажмите на кнопку"
+    },
+    "plhEmail": {
+        "en": "Enter your Email",
+        "ru": "Введите ваш Email"
+    },
+    "plhOldPass": {
+        "en": "Old password",
+        "ru": "Старый пароль"
+    },
+    "plhPassword": {
+        "en": "Password",
+        "ru": "Пароль"
+    },
+    "plhRepeatPass": {
+        "en": "Repeat the password",
+        "ru": "Повторите пароль"
+    },
+    "recoveryDoneMsg": {
+        "en": "A letter with data for password reset has been sent to your email address",
+        "ru": "На вашу почту отправленно письмо для с данными для востановления"
+    },
+    "recoveryGoLogin": {
+        "en": "Sign in",
+        "ru": "Войти"
+    },
+    "recoveryHeader": {
+        "en": "Reset the password",
+        "ru": "Восстановить пароль"
+    },
+    "recoveryLetLogin": {
+        "en": "Recalled your password?",
+        "ru": "Вспомнили пароль?"
+    },
+    "recoverySubmit": {
+        "en": "Reset the password",
+        "ru": "Восстановить пароль"
+    },
+    "refBalanceLabel": {
+        "en": "Referral program bonuses",
+        "ru": "Бонусов по реферальной программе"
+    },
+    "refGoPayout": {
+        "en": "Withdraw",
+        "ru": "Вывести"
+    },
+    "refMenuIncomes": {
+        "en": "Charge history",
+        "ru": "История начислений"
+    },
+    "refMenuIncomesM": {
+        "en": "Charges",
+        "ru": "Начисления"
+    },
+    "refMenuOutcomes": {
+        "en": "Withdrawal history",
+        "ru": "История вывода"
+    },
+    "refMenuRefs": {
+        "en": "List of referrals",
+        "ru": "Cписок рефералов"
+    },
+    "refMenuRefsM": {
+        "en": "Withdrawals",
+        "ru": "Выводы"
+    },
+    "refPayoutCurrency": {
+        "en": "Withdraw the funds",
+        "ru": "Вывести средства"
+    },
+    "refPayoutLabel": {
+        "en": "Withdraw the reward",
+        "ru": "Вывести вознаграждение"
+    },
+    "refPayoutPS": {
+        "en": "Payment system",
+        "ru": "Платежная система"
+    },
+    "regEmailHint": {
+        "en": "A confirmation will be sent to this address",
+        "ru": "На этот адрес придет подтверждение"
+    },
+    "regHeader": {
+        "en": "Registration",
+        "ru": "Регистрация"
+    },
+    "regImonLabel": {
+        "en": "I'm monitor the exchange services",
+        "ru": "Я — мониторинг обменных сервисов"
+    },
+    "regMonLink": {
+        "en": "Link to monitoring",
+        "ru": "Ссылка на мониторинг"
+    },
+    "regPassLengthError": {
+        "en": "Password should contain at least 8 characters",
+        "ru": "Пароль должен содержать не менее 8 символов"
+    },
+    "regPassNotEqual": {
+        "en": "Passwords don't match",
+        "ru": "Пароли не совпадают"
+    },
+    "regPlhPassword": {
+        "en": "Create a password",
+        "ru": "Придумайте пароль"
+    },
+    "regSigned": {
+        "en": "Already registered?",
+        "ru": "Уже зарегистрированы?"
+    },
+    "regSubmit": {
+        "en": "Registration",
+        "ru": "Регистрация"
+    },
+    "registerDoneMsg": {
+        "en": "A letter with your registration confirmation has been sent to your email address",
+        "ru": "На вашу почту отправленно письмо для подтверждения регистрации"
+    },
+    "reqAddHeader": {
+        "en": "Adding bank details",
+        "ru": "Добавление реквизитов"
+    },
+    "reqAddSubmit": {
+        "en": "Save",
+        "ru": "Сохранить"
+    },
+    "reqListHeader": {
+        "en": "My linked bank details",
+        "ru": "Мои привязанные реквизиты"
+    },
+    "reqListHeaderDel": {
+        "en": "Deletion",
+        "ru": "Удаление"
+    },
+    "reqListHeaderReq": {
+        "en": "Bank details",
+        "ru": "Реквизиты"
+    },
+    "resAllReserves": {
+        "en": "All reserves",
+        "ru": "Все резервы"
+    },
+    "resHeader": {
+        "en": "Currency reserves",
+        "ru": "Резервы валют"
+    },
+    "resHintText": {
+        "en": "A question about reserves?",
+        "ru": "Вопрос по резервам?"
+    },
+    "resPS": {
+        "en": "Payment systems",
+        "ru": "Платежные системы"
+    },
+    "resPSshort": {
+        "en": "PS",
+        "ru": "ПС"
+    },
+    "resSelectType": {
+        "en": "Select a section",
+        "ru": "Выберите раздел"
+    },
+    "resSubHeader": {
+        "en": "Before using the service, the User shall read the Terms and Conditions of the service in full. Using the service is possible only if the User accepts all terms of the agreement.",
+        "ru": "Перед тем как воспользоваться услугами сервиса, Пользователь обязан ознакомиться в полном объеме с Правилами и условиями предоставления услуг сервисом. Использование услуг сервиса  возможно только в случае, если Пользователь принимает все условия соглашения."
+    },
+    "ruleHeader": {
+        "en": "Terms and conditions of exchange operations",
+        "ru": "Правила и условия обменных операций"
+    },
+    "ruleSelectPlh": {
+        "en": "Select a section",
+        "ru": "Выберите раздел"
+    },
+    "ruleSubHeader": {
+        "en": "Before using the service, the User shall read the Terms and Conditions of the service in full. Using the service is possible only if the User accepts all terms of the agreement.",
+        "ru": "Перед тем как воспользоваться услугами сервиса, Пользователь обязан ознакомиться в полном объеме с Правилами и условиями предоставления услуг сервисом. Использование услуг сервиса  возможно только в случае, если Пользователь принимает все условия соглашения."
+    },
+    "ruleTabCookie": {
+        "en": "Cookie agreement",
+        "ru": "Соглашение об использовании Cookie"
+    },
+    "ruleTabPerform": {
+        "en": "Processing of personal data",
+        "ru": "Обработка персональных данных"
+    },
+    "serverErrorNotify": {
+        "en": "Server error. Please try again",
+        "ru": "Ошибка сервера, попробуйте еще раз"
+    },
+    "setNewPassHeader": {
+        "en": "New password",
+        "ru": "Новый пароль"
+    },
+    "setNewPassSubmit": {
+        "en": "Save",
+        "ru": "Сохранить"
+    },
+    "setNewPassSuccess": {
+        "en": "Your password has been successfully changed",
+        "ru": "Ваш пароль успешно изменен"
+    },
+    "showAll": {
+        "en": "All",
+        "ru": "Все"
+    },
+    "showMoreBtn": {
+        "en": "Show more",
+        "ru": "Показать еще"
+    },
+    "sleepHeader": {
+        "en": "We will resume the work of the site soon",
+        "ru": "В ближайшее время вы возобновим работу сайта"
+    },
+    "sleepSubHeader": {
+        "en": "Thank you for choosing our exchange service!",
+        "ru": "Спасибо за выбор нашего обменника!"
+    },
+    "stateNegative": {
+        "en": "No",
+        "ru": "Нет"
+    },
+    "statePositive": {
+        "en": "Yes",
+        "ru": "Да"
+    },
+    "tableHeadActive": {
+        "en": "Active",
+        "ru": "Активный"
+    },
+    "tableHeadDate": {
+        "en": "Date",
+        "ru": "Дата"
+    },
+    "tableHeadEmail": {
+        "en": "Email",
+        "ru": "Email"
+    },
+    "tableHeadIncome": {
+        "en": "Earnings",
+        "ru": "Заработок"
+    },
+    "tableHeadPS": {
+        "en": "System",
+        "ru": "Система"
+    },
+    "tableHeadReqs": {
+        "en": "Bank details",
+        "ru": "Реквизиты"
+    },
+    "tableHeadState": {
+        "en": "Status",
+        "ru": "Состояние"
+    },
+    "techBreakHeader": {
+        "en": "Service break",
+        "ru": "Технический перерыв"
+    },
+    "techBreakLeft": {
+        "en": "Time left to wait",
+        "ru": "Осталось ждать"
+    },
+    "techBreakLeftMin": {
+        "en": "min",
+        "ru": "мин"
+    },
+    "techBreakLeftSec": {
+        "en": "sec",
+        "ru": "сек"
+    },
+    "vrfPhotoLoad": {
+        "en": "Loading...",
+        "ru": "Идет загрузка..."
+    },
+    "vrfPhotoSelect": {
+        "en": "Upload a card photo",
+        "ru": "Загрузить фото карты"
+    },
+    "vrfText10": {
+        "en": "Verification takes about",
+        "ru": "Верификация занимает около"
+    },
+    "vrfText11": {
+        "en": "2 minutes",
+        "ru": "2х минут"
+    },
+    "vrfText20": {
+        "en": "Upload a photo of your bank card in JPG,PNG format,",
+        "ru": "Загрузите фото Вашей банковской карты в формате JPG,PNG,"
+    },
+    "vrfText21": {
+        "en": "on the background of Tuco.co with your order number",
+        "ru": "на фоне сайта Tuco.co с номером Вашей заявки"
+    },
+    "vrfText30": {
+        "en": "The photo size should not exceed 10 MB",
+        "ru": "Фото не должно превышать более 10 Мб"
+    },
+    "vrfWarn": {
+        "en": "Please note that verification is carried out exclusively on the website and requires a photo of only the front side of your card. We never request a photo of the card with confidential customer data and a CVC code.",
+        "ru": "Обращаем Ваше внимание на то, что верификация осуществляется исключительно на сайте, а для успешной верификации требуется фото только лицевой части карты. Мы никогда не запрашиваем фото карты с конфиденциальными данными клиента и кодом CVC."
+    },
+    "vrfWarnDescript": {
+        "en": "Error cause",
+        "ru": "Причина ошибки"
+    },
+    "refPayoutSubmit": {
+        "en": "Withdraw the funds",
+        "ru": "Вывести средства"
+    },
+    "accMenuExit": {
+        "en": "Log out",
+        "ru": "Выйти"
+    },
+    "orderDataRateUndefined": {
+        "en": "The rate is undefined",
+        "ru": "Курс не определен"
+    },
+    "footerDescription": {
+        "en": "Round-the-clock online e-currency exchange service  40ichange40",
+        "ru": "Круглосуточный онлайн сервис обмена электронных валют «40ichange40»"
+    }
+}

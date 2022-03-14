@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local("Museo"), local("Museo"), url(/static/ichange40/fonts/MuseoSansCyrl.ttf);
+}
+@font-face {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local("Museo"), local("Museo"), url(/static/ichange40/fonts/MuseoSansLight.ttf);
+}
+@font-face {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Museo"), local("Museo"), url(/static/ichange40/fonts/MuseoSansRegular.ttf);
+}
+@font-face {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local("Museo"), local("Museo"), url(/static/ichange40/fonts/MuseoSansMedium.ttf);
+}
+body {
+    margin: 0;
+    font-family: "Museo", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #3e4046;
+}
+a {
+    transition: color 0.1s ease 0s;
+    text-decoration: none;
+}
+* {
+    font-family: "Museo";
+    box-sizing: border-box;
+}
+svg {
+    vertical-align: middle;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover,
+select:-webkit-autofill,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:hover,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:hover {
+    border: 0 solid green;
+    font-weight: 600;
+    -webkit-text-fill-color: #8d7c72;
+    -webkit-box-shadow: none;
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+    transition: background-color 5000s ease-in-out 0s;
+}
+@-webkit-keyframes spin {
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}
+@keyframes spin {
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-track {
+    background: #f8f8f8;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #d9e600;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #d9e600;
+}
+.react-multi-carousel-dot button {
+    border: none !important;
+    background: #e0e0e0 !important;
+    margin-right: 12px !important;
+}
+.react-multi-carousel-dot--active button {
+    background: #d8618b !important;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}

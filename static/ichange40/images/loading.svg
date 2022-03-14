@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="_x30_1ae955e-775a-44e8-a71f-e806d045495c" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 450 450" style="enable-background:new 0 0 450 450;" xml:space="preserve">
+    <style type="text/css">
+	.st0{fill:none;stroke:#CFDC00;stroke-width:14;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#CFDC00;stroke-width:12;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+</style>
+    <title>loading</title>
+    <g>
+        <path class="st0" d="M289.5,62.8c88.3,33.6,132.7,132.3,99.1,220.6" />
+        <path class="st0" d="M68.9,161.9c33.6-88.3,132.3-132.7,220.6-99.1" />
+        <path class="st0" d="M168,382.5C79.8,349,35.4,250.4,68.8,162.1c0-0.1,0-0.1,0.1-0.2" />
+        <path class="st0" d="M286.3,383.8c-89,31.5-186.6-15.1-218.1-104c0-0.1,0-0.1-0.1-0.2" />
+        <line class="st1" x1="233.8" y1="349.6" x2="287.3" y2="384.8" />
+        <line class="st1" x1="288.5" y1="377.5" x2="253.3" y2="431" />
+
+        <animateTransform accumulate="none" additive="replace" attributeName="transform" attributeType="XML" calcMode="linear" dur="5s" fill="remove" from="360 228.8 222" repeatCount="indefinite" restart="always" to="0 228.8 222" type="rotate"></animateTransform>
+    </g>
+    <g>
+        <path class="st2" d="M162.8,172.9c27.4-36.7,79.3-44.3,116-16.9c0.1,0,0.1,0.1,0.2,0.1" />
+        <path class="st2" d="M179.6,289.1c-36.7-27.4-44.3-79.4-16.8-116.2c0,0,0,0,0,0" />
+        <path class="st2" d="M295.8,272.3c-27.4,36.7-79.3,44.3-116,16.9c-0.1,0-0.1-0.1-0.2-0.1" />
+        <path class="st2" d="M312.2,217.2c2.9,45.7-31.8,85.1-77.5,88c-0.1,0-0.1,0-0.2,0" />
+        <line class="st2" x1="289.3" y1="237.2" x2="312.8" y2="216.9" />
+        <line class="st2" x1="309.6" y1="215.4" x2="329.9" y2="239" />
+
+        <animateTransform accumulate="none" additive="replace" attributeName="transform" attributeType="XML" calcMode="linear" dur="1.4s" fill="remove" from="360 228.8 222" repeatCount="indefinite" restart="always" to="0 228.8 222" type="rotate"></animateTransform>
+    </g>
+</svg>

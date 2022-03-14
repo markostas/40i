@@ -1,0 +1,41 @@
+{% extends "custom_admin/base.html" %}
+{% load static %}
+
+{% block title %}
+    Загрузка логов
+{% endblock %}
+
+{% block extrastyle %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static 'custom_admin/css/upload_logs.css' %}?v=5">
+{% endblock %}
+
+{% block content %}
+    <div id="content-main">
+        <div class="card-body p-0">
+                <table class="table table-striped projects">
+                    <thead>
+                        <tr>
+                            <th>Направление</th>
+                            <th>Кол-во завершённых обменов</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for pair, count in data.items %}
+                            <tr>
+                                <td>{{ pair }}</td>
+                                <td>{{ count }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer %}
+    {{ block.super }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.1.0/progressbar.min.js"></script>
+    <script defer src="{% static 'custom_admin/js/upload_logs.js' %}"></script>
+{% endblock %}
